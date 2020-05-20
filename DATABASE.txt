@@ -1,0 +1,29 @@
+-- phpMyAdmin SQL Dump
+-- version 2.9.2
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: May 20, 2020 at 03:07 AM
+-- Server version: 5.0.27
+-- PHP Version: 5.2.1
+-- 
+-- Database: `iconma`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `users`
+-- 
+
+CREATE TABLE `users` (
+  `userName` varchar(10) NOT NULL,
+  `password` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table `users`
+-- 
+
+INSERT INTO `users` (`userName`, `password`) VALUES 
+('om', 'prakash');
